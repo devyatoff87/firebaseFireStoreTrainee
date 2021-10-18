@@ -1,0 +1,17 @@
+.color-item {
+  border: 1px solid var(--light);
+  max-width: 400px;
+  h4 {
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+  .inner {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 160px;
+    background: var(--super-light);
+  }
+}
